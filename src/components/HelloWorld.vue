@@ -2,8 +2,8 @@
   <div>
     <section-perfil/>
     <section-header/>
-      <header-up></header-up>
-      <!-- <main-body></main-body> -->
+    <header-up/>
+    <main-body/>
   </div>
 </template>
 

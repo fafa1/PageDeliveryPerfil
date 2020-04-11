@@ -24,7 +24,6 @@ export default {
   background-color: #fff;
   border-bottom: 1px solid #d5d5dac9;
   box-shadow: 0px 1px 4px 0px #e2dfdf;
-  /* padding: 30px 0; */
 }
 
 .page {
@@ -52,7 +51,7 @@ export default {
 .menu-nav-lista input {
   width: 33vw;
   border: 1px solid #d5d5dac9;
-  box-shadow: 0px 1px 1px 0px #b1adad;
+  box-shadow: 0px 1px 2px 0px #b1adad;
   box-sizing: border-box;
   height: 28px;
   outline: none;
