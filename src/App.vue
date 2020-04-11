@@ -18,7 +18,7 @@ export default {
   margin: 0 auto;
   max-width: 960px;
 } */
-body, h1, h2, ul, li, p {
+body, h1, h2, h3, ul, li, p {
   margin: 0;
   padding: 0;
 }
