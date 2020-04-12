@@ -43,7 +43,6 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .main-card {
@@ -110,5 +109,4 @@ export default {
   text-align: center;
   color: #333335c9;
 }
-
 </style>
