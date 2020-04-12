@@ -18,11 +18,11 @@
         </ul>
       </div>
       <div>
-        <img src="../assets/facebook.png" width="100px" height="100px" alt="">
+        <img src="../assets/facebook.png" width="100px" height="100px" alt="facebook">
       </div>
       <div class="footer-appstore">
         <h2>Baixe o App!</h2>
-        <img src="../assets/appStore.png" width="300px" height="50px" alt="">
+        <img src="../assets/appStore.png" width="300px" height="50px" alt="appStore">
       </div>
     </div>
   </div>
@@ -65,6 +65,5 @@ export default {
 
 .footer-appstore h2 {
   margin-bottom: 10px;
-  /* font-size: 1.3em; */
 }
 </style>
