@@ -157,7 +157,6 @@ export default {
 .container-menu ul {
   display: flex;
   justify-content: space-between;
-  list-style: none;
   padding: 30px 0;
 }
 

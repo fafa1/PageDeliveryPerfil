@@ -4,6 +4,7 @@
     <section-header/>
     <header-up/>
     <main-body/>
+    <footer-view/>
   </div>
 </template>
 
@@ -12,15 +13,17 @@ import headerUp from './headerUp'
 import mainBody from './mainBody'
 import sectionPerfil from './sectionPerfil'
 import sectionHeader from './sectionHeader'
+import footerView from './footerView'
 
 export default {
-  name: 'HelloWorld',
+  name: 'home',
 
   components: {
     sectionPerfil,
     sectionHeader,
     headerUp,
-    mainBody
+    mainBody,
+    footerView
   },
 
 

@@ -49,6 +49,7 @@ export default {
 .main-card {
   display: flex;
   border: 1px solid #d5d5dac9;
+  box-shadow: 0px 5px 3px 0px #aaa7a7;
   padding: 20px;
   width: 540px;
   margin-bottom: 2px;

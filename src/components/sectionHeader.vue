@@ -3,7 +3,7 @@
     <section class="page">
       <nav class="menu-nav-header">
         <ul class="menu-nav-lista">
-          <li><a href="">img</a></li>
+          <li><a href="#"><img src="../assets/seekFood.png" width="100px" height="40px" alt=""> </a></li>
           <li><input type="text" placeholder="Buscar restaurantes..."></li>
           <li><a class="nav-text" href="">restaurantes</a></li>
           <li><a class="nav-text-foodie" href="">Foodies</a></li>
@@ -32,11 +32,7 @@ export default {
 }
 
 .menu-nav-header {
-  padding: 20px;
-}
-
-.menu-nav-header li {
-  list-style: none;
+  padding: 20px 0;
 }
 
 .menu-nav-header a {
