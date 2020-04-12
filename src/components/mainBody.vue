@@ -16,8 +16,11 @@
 
 <script>
 import boxCard from './boxCard'
-import imagem from '../assets/bebe.svg'
-import imagem2 from '../assets/chefe-de-cozinha.svg'
+import churrascaria from '../assets/carne.svg'
+import cerveja from '../assets/cerveja.svg'
+import pizza from '../assets/pizza.svg'
+import legumes from '../assets/legumes.svg'
+import bolo from '../assets/bolo.svg'
 export default {
   name: 'mainBody',
 
@@ -28,21 +31,22 @@ export default {
   data() {
     return {
       restaurantes: [
-        {tipo: 'churrascaria', imagem, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
-        {tipo: 'Choppeira', imagem: imagem2, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
-        {tipo: 'Pizzaria', imagem: imagem2, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
-        {tipo: 'Saúdavel', imagem: imagem2, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
-        {tipo: 'Doceira', imagem: imagem2, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
-        {tipo: 'churrascaria', imagem, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
-        {tipo: 'Choppeira', imagem: imagem2, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
-        {tipo: 'Pizzaria', imagem, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
-        {tipo: 'Choppeira', imagem: imagem2, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
-        {tipo: 'Pizzaria', imagem, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
-        {tipo: 'Choppeira', imagem: imagem2, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
-        {tipo: 'Pizzaria', imagem, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
-        {tipo: 'Choppeira', imagem: imagem2, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
-        {tipo: 'Pizzaria', imagem,descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
-        {tipo: 'Doceira', imagem: imagem2, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' }
+        {tipo: 'churrascaria', imagem: churrascaria, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
+        {tipo: 'Choppeira', imagem: cerveja, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
+        {tipo: 'Pizzaria', imagem: pizza, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
+        {tipo: 'Saúdavel', imagem: legumes, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
+        {tipo: 'Doceira', imagem: bolo, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
+        {tipo: 'churrascaria', imagem: churrascaria, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
+        {tipo: 'Choppeira', imagem: cerveja, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
+        {tipo: 'Pizzaria', imagem: pizza, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
+        {tipo: 'Saúdavel', imagem: legumes, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
+        {tipo: 'Doceira', imagem: bolo, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
+        {tipo: 'churrascaria', imagem: churrascaria, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
+        {tipo: 'Choppeira', imagem: cerveja, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
+        {tipo: 'Pizzaria', imagem: pizza, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
+        {tipo: 'Saúdavel', imagem: legumes, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' },
+        {tipo: 'Doceira', imagem: bolo, descricao: 'Para se tornar amante você precisa', passos: 'Avaliar 3 restaurantes.(1/3)' }
+        
       ]
     }
   }
@@ -59,7 +63,6 @@ export default {
 
 .menu-main li {
   margin-right: 30px;
-  list-style: none;
   border: 1px solid #d5d5dac9;
   background-color: #929296c9;
   border-radius: 30px;

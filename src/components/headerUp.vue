@@ -8,7 +8,7 @@
           </div>
           <div class="perfil-status-texto">
             <h2>almightyThor</h2>
-            <p>Baby Sage</p>
+            <p>Gourmand</p>
             <div class="perfil-status">
               <p><span>11.712</span> Pontos</p>
               <p><span>97</span> seguidores</p>
@@ -47,14 +47,35 @@
         </div>
         <div class="perfil-status-config">
           <span>
-            <p>Editar Informações</p>
+            <a href="#">
+              <img src="../assets/logo/estrela.svg" alt="">
+              <p>Seguir</p>
+              </a>
           </span>
-          <div>
+
+          <div class="perfil-logo">
+            <span><img src="../assets/logo/o-email.svg" alt=""></span>
             <a href="#">bfagner@hotmail.com</a>
-            <a href="#">www.google.com.br</a>
+          </div>
+
+          <div class="perfil-logo">
+            <span><img src="../assets/logo/home-run.svg" alt=""></span>
+            <a href="#">https://github.com/fafa1</a>
+          </div>
+
+          <div class="perfil-logo">
+            <span><img src="../assets/logo/telefone.svg" alt=""></span>
             <a href="#">+5571983930033</a>
-            <a href="#">batistaFagner</a>
-            <a href="#">@fagner</a>
+          </div>
+
+          <div class="perfil-logo">
+            <span><img src="../assets/logo/facebook.svg" alt=""></span>
+            <a href="#">/fagner.bezerrabatista</a>
+          </div>
+
+          <div class="perfil-logo">
+            <span><img src="../assets/logo/instagram.svg" alt=""></span>
+            <a href="#">@bfagner12</a>
           </div>
         </div>
       </section>
@@ -86,7 +107,7 @@ export default {
 
 .page {
   margin: 0 auto;
-  max-width: 1100px;
+  max-width: 960px;
 }
 
 .main-perfil {
@@ -109,6 +130,13 @@ export default {
   display: flex;
 }
 
+.perfil-logo  {
+  display: flex;
+  margin-bottom: 9px;
+  width: 14px;
+  height: 13px;
+}
+
 .perfil-status p {
   padding-top: 18px;
   padding-right: 20px;
@@ -124,6 +152,7 @@ export default {
 }
 
 .perfil-status-nivel li {
+  margin-bottom: 10px;
   display: inline-block;
   margin-right: 10px;
 }
@@ -132,26 +161,36 @@ export default {
   display: block;
 }
 
-.perfil-status-config span {
-  display: block;
+.perfil-status-config > span {
+  display: flex;
   border: 1px solid black;
+  margin-bottom: 20px;
   border-radius: 20px;
-  width: 180px;
+  width: 100px;
   height: 20px;
 }
 
+.perfil-status-config span img {
+  margin: 4px 0 0 10px;
+  width: 15px;
+  height: 12px;
+}
+
 .perfil-status-config span p {
-  padding-left: 30px;
+  display: inline;
+  color: #312f2f;
+  padding-left: 10px;
 }
 
 .perfil-status-config a {
   display: block;
-  line-height: 25px;
+  line-height: -1px;
+  margin-left: 5px;
   color: #e09a32;
 }
 
 .perfil-status-config div {
-  margin-top: 20px;
+  margin-top: 3px;
 }
 
 .container-menu ul {
@@ -167,5 +206,4 @@ export default {
 #text-color a {
   color: #cc2121;
 }
-
 </style>
