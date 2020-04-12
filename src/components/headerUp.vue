@@ -132,7 +132,7 @@ export default {
 
 .perfil-logo  {
   display: flex;
-  margin-bottom: 9px;
+  margin: 0 16px 9px 0;
   width: 14px;
   height: 13px;
 }
@@ -157,8 +157,13 @@ export default {
   margin-right: 10px;
 }
 
+
 .perfil-status-nivel span {
   display: block;
+}
+
+.perfil-status-config {
+  flex: 3;
 }
 
 .perfil-status-config > span {
@@ -166,7 +171,7 @@ export default {
   border: 1px solid black;
   margin-bottom: 20px;
   border-radius: 20px;
-  width: 100px;
+  width: 160px;
   height: 20px;
 }
 
@@ -205,5 +210,22 @@ export default {
 
 #text-color a {
   color: #cc2121;
+}
+
+@media only screen and (max-width: 1000px) {
+  .perfil-status-config{
+    display:none;
+  }
+  .perfil-status-nivel {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 658px) {
+  .main-perfil {
+    display: flex;
+    margin: 0 70px;
+    flex-direction: column;
+  }
 }
 </style>
