@@ -24,23 +24,23 @@
           <h3>Nível do foodie</h3>
           <ul>
             <li>
-              <img src="../assets/bebe.svg" width="40px" height="33px" alt="">
+              <img src="../assets/bebe.svg" width="40px" height="33px" alt="bebê">
               <span>Baby Stage</span>
             </li>
             <li>
-              <img src="../assets/foguete.svg" width="50px" height="40px" alt="">
+              <img src="../assets/foguete.svg" width="50px" height="40px" alt="foguete">
               <span>Bom Vivant</span>
             </li>
             <li>
-              <img src="../assets/mortarboard.svg" width="50px" height="40px" alt="">
+              <img src="../assets/mortarboard.svg" width="50px" height="40px" alt="formatura">
               <span>Nome</span>
             </li>
             <li>
-              <img src="../assets/restaurante.svg" width="50px" height="45px" alt="">
+              <img src="../assets/restaurante.svg" width="50px" height="45px" alt="restaurante">
               <span>Gourmand</span>
             </li>
             <li>
-              <img src="../assets/chefe-de-cozinha.svg" width="50px" height="40px" alt="">
+              <img src="../assets/chefe-de-cozinha.svg" width="50px" height="40px" alt="chapéu">
               <span>Conncisseur</span>
             </li>
           </ul>
