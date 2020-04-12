@@ -38,6 +38,7 @@ export default {
 .page {
   background-color: #1d1c1c;
 }
+
 .footer {
   margin: 0 auto;
   max-width: 1100px;
