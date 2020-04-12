@@ -5,7 +5,7 @@
         <ul class="menu-nav-lista">
           <li>
             <a href="#">
-              <img src="../assets/seekFood.png" width="100px" height="40px" alt="">
+              <img src="../assets/seekFood.png" width="100px" height="40px" alt="seekFood">
             </a>
           </li>
           <li><input type="text" placeholder="Buscar restaurantes..."></li>
@@ -13,7 +13,7 @@
             <a class="nav-text" href="#">
               <span>
                 <img src="../assets/logo/talheres.svg"
-                width="20px" height="20px" alt="">
+                width="20px" height="20px" alt="talheres">
                 restaurantes
               </span>
             </a>
@@ -22,7 +22,7 @@
             <a class="nav-text-foodie" href="#">
               <span>
                 <img src="../assets/logo/estrela-do-mar.svg"
-                width="20px" height="20px" alt="">
+                width="20px" height="20px" alt="foodies">
                 Foodies
               </span>
             </a>
@@ -35,6 +35,7 @@
 
 <script>
 export default {
+  name: 'sectionHeader'
 }
 </script>
 
