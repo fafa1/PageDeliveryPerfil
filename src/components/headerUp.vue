@@ -113,7 +113,7 @@ export default {
 .main-perfil {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px;
   border-bottom: 1px solid #d5d5dac9;
 }
 

@@ -28,7 +28,7 @@ export default {
 
 <style scoped>
 .header {
-  padding: 5px 0;
+  padding: 5px 20px;
   background-color: #af2828;
 }
 
