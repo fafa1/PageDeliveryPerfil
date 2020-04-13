@@ -107,7 +107,7 @@ export default {
 
 .page {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1000px;
 }
 
 .main-perfil {
