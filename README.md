@@ -2,6 +2,10 @@
 
 > A Vue.js project
 
+## Imagens
+
+![home](../src/assets/HOME_INICI.png)
+
 ## Build Setup
 
 ``` bash
