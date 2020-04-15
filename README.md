@@ -5,6 +5,7 @@
 ## Imagens
 
 ![](./fotoReadme/HOME_INICI.png)
+![](./fotoReadme/footer.png)
 
 ## Build Setup
 
